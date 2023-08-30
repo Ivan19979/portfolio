@@ -24,7 +24,6 @@ new Swiper('.swiper', {
 
 $('.header__contacts-burger').click(() => {
     $('.header__contacts').slideToggle();
-    console.log($('#input'));
     $('.callback__label').focus();
 });
 
