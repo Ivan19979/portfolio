@@ -1,6 +1,8 @@
 
 .present__photo{
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     object-fit: cover;
     margin-bottom: 20px;
     background-color: rgb(215, 211, 211);
@@ -88,6 +90,7 @@
     }
     .present__photo{
         width: 50%;
+        margin-left: 0;
         margin-right: 15px;
         margin-bottom: 0;
     }
@@ -161,7 +164,6 @@
 
     .present__photo{
         border-radius: 5%;
-
     }
 }
 
