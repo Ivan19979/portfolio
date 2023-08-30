@@ -4,7 +4,7 @@
     object-fit: cover;
     margin-bottom: 20px;
     background-color: rgb(215, 211, 211);
-    border-radius: 5%;
+    border-radius: 100%;
     pointer-events: none; 
 }
 
@@ -157,6 +157,11 @@
         height: 100%;
         background-color: #A1B7C8;
         z-index: -1;
+    }
+
+    .present__photo{
+        border-radius: 5%;
+
     }
 }
 

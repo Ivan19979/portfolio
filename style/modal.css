@@ -76,9 +76,19 @@
 }
 
 .connect__label{
+    width: 0px;
     cursor: pointer;
-    display: block;;
+    display: block;
     margin-bottom: 15px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.connect__label:focus{
+    outline: none;
+    border: none;
+    background: none;
 }
 
 .connect__label:last-child{
