@@ -5,7 +5,7 @@ new Swiper('.swiper', {
         disabledClass: 'portfolio__arrow-desable',
     },
     breakpoints: {
-        480: {
+        320: {
             grid: {
                 fill: 'row',
                 rows: 2
@@ -19,7 +19,10 @@ new Swiper('.swiper', {
             }
         },
 
-    }
+    },
+    autoplay: {
+        delay: 5000,
+    },
 });
 
 $('.header__contacts-burger').click(() => {

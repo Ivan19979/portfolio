@@ -33,6 +33,15 @@
     background-image: url('../img/macbook.svg');
     background-size: cover;
     margin-bottom: 30px;
+
+}
+
+.card__link{
+    align-self: center;
+}
+
+.card__link:hover{
+    transform: scale(1.05);
 }
 
 .card__data{
@@ -47,6 +56,8 @@
     line-height: 120%;
 }
 
+
+
 .card__date{
     line-height: 140%;
 }
@@ -60,13 +71,14 @@
 .portfolio__arrow{
     display: block;
     position: absolute;
+    overflow: inherit;
     width: 26px;
-    height: 26px;
+    height: 50px;
     background-image: url('../img/arrow.svg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    top: 40%;
+    background-size: cover;
+    top: calc(50% - 25px);
     z-index: 1;
     border-radius: 5px;
 }
@@ -74,6 +86,7 @@
 .portfolio__arrow-left{
     left: 0;
 }
+
 
 .portfolio__arrow-right{
     right: 1px;
