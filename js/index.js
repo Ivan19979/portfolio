@@ -48,3 +48,10 @@ $('.callback__btn').click((e) => {
     e.preventDefault();
         $('.page__overlay-modal').fadeOut(400);
 });
+
+elem = document.querySelector('.present__photo-btn');
+console.log(elem);
+elem.addEventListener('click', () => {
+    $('.page__overlay-modal').fadeIn(400).css('display', 'flex');
+    
+})

@@ -7,8 +7,15 @@
     margin-bottom: 20px;
     background-color: rgb(215, 211, 211);
     border-radius: 100%;
-    pointer-events: none; 
+    pointer-events: none;
+
+    border: 4px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white), radial-gradient(circle at 5% 110%, #fdf497 5%, #ecde45 25%, #f14737 75%,#d6249f 85%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
+
 
 .present__group-title{
     text-transform: uppercase;
@@ -44,6 +51,7 @@
     padding: 16px 60px;
     border-radius: 10px;
     background-color: #E87C40;
+    
     border: 2px solid transparent;
 }
 
@@ -88,8 +96,14 @@
         display: flex;
         align-items: center;
     }
-    .present__photo{
+    .present__photo-btn{
         width: 50%;
+        margin-left: 0;
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .present__photo{
         margin-left: 0;
         margin-right: 15px;
         margin-bottom: 0;
@@ -125,6 +139,10 @@
 
     .present__photo{
         width: 370px;
+    }
+
+    .present__photo-btn{
+        width: 60%;
         margin-right: 30px;
     }
 
@@ -145,6 +163,7 @@
     }
 }
 
+
 @media (min-width: 992px){
     .present{
         position: relative;
@@ -162,15 +181,17 @@
         z-index: -1;
     }
 
-    .present__photo{
-        border-radius: 5%;
+    .present__photo-btn{
+        width: 80%;
     }
+
 }
 
 @media (min-width: 1440px) {
-    .present__photo{
-        width: 445px;
+    .present__photo-btn{
+        width: 100%;
     }
+
 
     .present__group-title{
         margin-bottom: 60px;
