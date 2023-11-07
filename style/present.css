@@ -25,7 +25,7 @@
   position: relative;
 }
 .present__description-item::before {
-  content: url("/img/galka.png");
+  content: url("../img/galka.png");
   position: absolute;
   top: 5px;
   left: -35px;
