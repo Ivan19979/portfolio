@@ -21,6 +21,27 @@
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
+.present__description-item {
+  position: relative;
+}
+.present__description-item::before {
+  content: url("/img/galka.png");
+  position: absolute;
+  top: 5px;
+  left: -35px;
+  /* width: 20px; */
+  /* height: 20px; */
+  overflow: hidden;
+  list-style: inside;
+}
+
+.present__description-item {
+  margin-bottom: 15px;
+}
+
+.present__description-item:last-child {
+  margin-bottom: 30px;
+}
 
 .present__group-title {
   text-transform: uppercase;
@@ -141,7 +162,9 @@
   .present__photo {
     width: 370px;
   }
-
+  .present__description-item:last-child {
+    margin-bottom: 50px;
+  }
   .present__photo-btn {
     width: 60%;
     margin-right: 30px;
@@ -182,7 +205,9 @@
 
     z-index: -1;
   }
-
+  .present__description-item:last-child {
+    margin-bottom: 60px;
+  }
   .present__photo-btn {
     width: 80%;
   }
@@ -192,7 +217,9 @@
   .present__photo-btn {
     width: 100%;
   }
-
+  .present__description-item:last-child {
+    margin-bottom: 80px;
+  }
   .present__group-title {
     margin-bottom: 60px;
   }
