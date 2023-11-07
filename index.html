@@ -1,244 +1,592 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/default.css">
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/default.css" />
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
     <title>Иван Щурупов - Frontend разработчик</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <script defer src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
     <script defer src="js/swiper-bundle.min.js"></script>
     <script defer src="js/index.js"></script>
-
-</head>
-<body class="page">
+  </head>
+  <body class="page">
     <header class="page__header header">
-        <div class="container header__container">
-            <a href="https://github.com/Ivan19979" target="_blank"><img class="header__logo" src="img/2023-08-29_16-00-23-transformed.png" alt="Логотип" ></a>
+      <div class="container header__container">
+        <a href="https://github.com/Ivan19979" target="_blank"
+          ><img
+            class="header__logo"
+            src="img/2023-08-29_16-00-23-transformed.png"
+            alt="Логотип"
+        /></a>
 
-            <address class="header__contacts contacts">
-                <ul class="contacts__list">
-                    <li class="contacts__item">
-                        <p class="contacts__head">Телефон</p>
-                        <a href="tel:+79535569152" class="contacts__link">+7 (953) 556 91 52</a>
-                    </li>
-                    <li class="contacts__item">
-                        <p class="contacts__head">Email</p>
-                        <a href="mailto:vanya.schurupov@yandex.ru" class="contacts__link">vanya.schurupov@yandex.ru</a>
-                    </li>
-                    <li class="contacts__item">
-                        <p class="contacts__head contacts__head-social">Соц. сети</p>
-                        <ul class="contacts__social-list">
-                            <li class="contacts__social-item">
-                                <a href="https://t.me/shchurupoff" target="_blank"  class="contacts__social-link contacts__social-link-whatsup"></a>
-                            </li>
-                            <li class="contacts__social-item">
-                                <a href="https://t.me/shchurupoff" target="_blank" class="contacts__social-link contacts__social-link-instagram"></a>
-                            </li>
-                            <li class="contacts__social-item">
-                                <a href="https://t.me/shchurupoff" target="_blank"  class="contacts__social-link contacts__social-link-facebook"></a>
-                            </li>
-                            <li class="contacts__social-item">
-                                <a href="https://t.me/shchurupoff" target="_blank"  class="contacts__social-link contacts__social-link-telegram"></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </address>
+        <address class="header__contacts contacts">
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <p class="contacts__head">Телефон</p>
+              <a href="tel:+79535569152" class="contacts__link"
+                >+7 (953) 556 91 52</a
+              >
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__head">Email</p>
+              <a href="mailto:vanya.schurupov@yandex.ru" class="contacts__link"
+                >vanya.schurupov@yandex.ru</a
+              >
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__head contacts__head-social">Соц. сети</p>
+              <ul class="contacts__social-list">
+                <li class="contacts__social-item">
+                  <a
+                    href="https://t.me/shchurupoff"
+                    target="_blank"
+                    class="contacts__social-link contacts__social-link-whatsup"
+                  ></a>
+                </li>
+                <li class="contacts__social-item">
+                  <a
+                    href="https://t.me/shchurupoff"
+                    target="_blank"
+                    class="contacts__social-link contacts__social-link-instagram"
+                  ></a>
+                </li>
+                <li class="contacts__social-item">
+                  <a
+                    href="https://t.me/shchurupoff"
+                    target="_blank"
+                    class="contacts__social-link contacts__social-link-facebook"
+                  ></a>
+                </li>
+                <li class="contacts__social-item">
+                  <a
+                    href="https://t.me/shchurupoff"
+                    target="_blank"
+                    class="contacts__social-link contacts__social-link-telegram"
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </address>
 
-            <button class="header__contacts-burger"></button>
-        </div>
+        <button class="header__contacts-burger"></button>
+      </div>
     </header>
 
     <main>
-        <section class="present">
-            <div class="container present__container">
-                <button class="present__photo-btn"><img src="img/photo_2023-08-29_13-25-39.jpg" alt="Фотография Ивана Щурупова" class="present__photo"></button>
+      <section class="present">
+        <div class="container present__container">
+          <button class="present__photo-btn">
+            <img
+              src="img/photo_2023-08-29_13-25-39.jpg"
+              alt="Фотография Ивана Щурупова"
+              class="present__photo"
+            />
+          </button>
 
-                <div class="present__content">
-                    <hgroup class="present__group-title">
-                        <h1 class="present__title">Иван Щурупов</h1>
-                        <h2 class="present__subtitle">Frontend разработчик</h2>
-                    </hgroup>
+          <div class="present__content">
+            <hgroup class="present__group-title">
+              <h1 class="present__title">Иван Щурупов</h1>
+              <h2 class="present__subtitle">Frontend разработчик</h2>
+            </hgroup>
 
-                    <p class="present__description">
-                        Привет. Меня зовут Иван и я frontend разработчик c&nbsp;опытом разработки 1&nbsp;год
-                    </p>
-                    <button class="preset__order-btn"><span>Написать</span> </button>
-                </div>
-            </div>
-        </section>
+            <p class="present__description">
+              Привет. Меня зовут Иван и я frontend разработчик. Пишу на JS, TS,
+              React.
+            </p>
+            <button class="preset__order-btn">
+              <span>Примеры работ</span>
+            </button>
+          </div>
+        </div>
+      </section>
 
-        <section class="advantage">
-            <div class="container">
-                <h2 class="advantage__title">Почему я !?</h2>
-                <ul class="advantage__list">
-                    <li class="advantage__item advantage__item-education">Высшее техническое образование</li>
-                    <li class="advantage__item advantage__item-stack">Стек: HTML, CSS, Git, JavaScript, React</li>
-                    <li class="advantage__item advantage__item-inlusive">Инклюзивность</li>
-                    <li class="advantage__item advantage__item-adapt">Адаптивная и кроссбраузерная вёрстка</li>
-                    <li class="advantage__item advantage__item-clear">Чистый валидный код</li>
-                    <li class="advantage__item advantage__item-copyright">Копирайтинг</li>
-                </ul>
-            </div>
-        </section>
+      <section class="advantage">
+        <div class="container">
+          <h2 class="advantage__title">Навыки</h2>
+          <ul class="advantage__list">
+            <li class="advantage__item advantage__item-education">
+              JavaScript, TypeScript
+            </li>
+            <li class="advantage__item advantage__item-stack">
+              React, Next.JS
+            </li>
+            <li class="advantage__item advantage__item-adapt">Redux, RTK</li>
+            <li class="advantage__item advantage__item-inlusive">
+              HTML5, CSS3, SCSS
+            </li>
+            <li class="advantage__item advantage__item-clear">Git, GitHub</li>
+            <li class="advantage__item advantage__item-copyright">
+              Parcel, Webpack4
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="portfolio">
-            <div class="container">
-                <h2 class="portfolio__title">Портфолио</h2>
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Портфолио</h2>
 
-                <div class="portfolio__slider swiper">
-                    <ul class="portfolio__list swiper-wrapper">
-                        <li class="portfolio__item swiper-slide">
-                            <article class="card">
-                                <a href="https://ivan-shchurupov-pomodoro.netlify.app/" class="card__link" target="_blanket">
-                                    <img class="card__pictire" src="img/pomodoro.png" alt="Проект Помодоро">
-                                </a>
+          <div class="portfolio__slider swiper">
+            <ul class="portfolio__list swiper-wrapper">
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/pomodoro.png"
+                    alt="Проект Помодоро"
+                  />
+                  <p class="card__data">
+                    <span class="card__client">Pet Project</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+                  <a
+                    href="https://ivan-shchurupov-pomodoro.netlify.app/"
+                    class="card__link"
+                    target="_blanket"
+                    title="ссылка на GitHub"
+                  >
+                    Проект Помодоро
+                  </a>
+                </article>
+              </li>
 
-                                <p class="card__data">
-                                    <span class="card__client">Pet Project</span>
-                                    <time class="card__date" datetime="2023">год: 2023</time>
-                                </p>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/workspace.png"
+                    alt="Workspace"
+                  />
 
-                                <h3 class="card__title">Проект Помодоро</h3>
-                            </article>
-                        </li>
+                  <p class="card__data">
+                    <span class="card__client">Pet Project</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
 
-                        <li class="portfolio__item swiper-slide">
-                            <article class="card">
-                                <a href="https://ivan19979.github.io/workspace/" class="card__link" target="_blanket">
-                                    <img class="card__pictire" src="img/workspace.png" alt="">
-                                </a>
+                  <a
+                    href="https://ivan19979.github.io/workspace/"
+                    class="card__link"
+                    target="_blanket"
+                    >Landing Workspace
+                  </a>
+                </article>
+              </li>
 
-                                <p class="card__data">
-                                    <span class="card__client">Pet Project</span>
-                                    <time class="card__date" datetime="2023">год: 2023</time>
-                                </p>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/awax.png"
+                    alt="awax"
+                  />
+                  <p class="card__data">
+                    <span class="card__client">Maxima</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+                  <a
+                    href="https://fanciful-mandazi-2421d4.netlify.app/"
+                    class="card__link"
+                    target="_blanket"
+                    >Тестовый макет
+                  </a>
+                </article>
+              </li>
 
-                                <h3 class="card__title">Landing Workspace</h3>
-                            </article>
-                        </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/burger.png"
+                    alt=""
+                  />
 
-                        <li class="portfolio__item swiper-slide">
-                            <article class="card">
-                                <a href="https://fanciful-mandazi-2421d4.netlify.app/" class="card__link" target="_blanket">
-                                    <img class="card__pictire" src="img/awax.png" alt="">
-                                </a>
+                  <p class="card__data">
+                    <span class="card__client">Pet Project</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
 
-                                <p class="card__data">
-                                    <span class="card__client">Maxima</span>
-                                    <time class="card__date" datetime="2023">год: 2023</time>
-                                </p>
+                  <a
+                    href="https://ivan19979.github.io/burgers/"
+                    class="card__link"
+                    target="_blanket"
+                    >Landing Burger
+                  </a>
+                </article>
+              </li>
 
-                                <h3 class="card__title">Тестовый макет</h3>
-                            </article>
-                        </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/ipTracker.png"
+                    alt=""
+                  />
 
-                        <li class="portfolio__item swiper-slide">
-                            <article class="card">
-                                <a href="https://ivan19979.github.io/burgers/" class="card__link" target="_blanket">
-                                    <img class="card__pictire" src="img/burger.png" alt="">
-                                </a>
+                  <p class="card__data">
+                    <span class="card__client">Pet Project</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
 
-                                <p class="card__data">
-                                    <span class="card__client">Pet Project</span>
-                                    <time class="card__date" datetime="2023">год: 2023</time>
-                                </p>
+                  <a
+                    href="https://ipfind-five.vercel.app/"
+                    class="card__link"
+                    target="_blanket"
+                    >IP Address Tracker
+                  </a>
+                </article>
+              </li>
 
-                                <h3 class="card__title">Landing Burger</h3>
-                            </article>
-                        </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/landing.png"
+                    alt=""
+                  />
 
-                        <li class="portfolio__item swiper-slide">
-                            <article class="card">
-                                <a href="https://ipfind-five.vercel.app/" class="card__link" target="_blanket">
-                                    <img class="card__pictire" src="img/ipTracker.png" alt="">
-                                </a>
+                  <p class="card__data">
+                    <span class="card__client">Pet Project</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
 
-                                <p class="card__data">
-                                    <span class="card__client">Pet Project</span>
-                                    <time class="card__date" datetime="2023">год: 2023</time>
-                                </p>
+                  <a
+                    href="https://ivan-shchurupov-page.netlify.app/"
+                    class="card__link"
+                    target="_blanket"
+                    >Landing page
+                  </a>
+                </article>
+              </li>
 
-                                <h3 class="card__title">IP Address Tracker</h3>
-                            </article>
-                        </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/slider-car.png"
+                    alt=""
+                  />
 
-                        <li class="portfolio__item swiper-slide">
-                            <article class="card">
-                                <a href="https://ivan-shchurupov-page.netlify.app/" class="card__link" target="_blanket">
-                                    <img class="card__pictire" src="img/landing.png" alt="">
-                                </a>
+                  <p class="card__data">
+                    <span class="card__client">Marathon</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
 
-                                <p class="card__data">
-                                    <span class="card__client">Pet Project</span>
-                                    <time class="card__date" datetime="2023">год: 2023</time>
-                                </p>
+                  <a
+                    href="https://ivan-shchurupov-page.netlify.app/"
+                    class="card__link"
+                    target="_blanket"
+                    >Slider cars
+                  </a>
+                </article>
+              </li>
 
-                                <h3 class="card__title">Landing page</h3>
-                            </article>
-                        </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/drag-and-drop.png"
+                    alt=""
+                  />
 
-                        
+                  <p class="card__data">
+                    <span class="card__client">Marathon</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
 
-                        
+                  <a
+                    href="https://ivan-shchurupov-page.netlify.app/"
+                    class="card__link"
+                    target="_blanket"
+                    >Drad and Drop</a
+                  >
+                </article>
+              </li>
 
-                    </ul>
-                    <button class="portfolio__arrow portfolio__arrow-left"></button>
-                    <button class="portfolio__arrow portfolio__arrow-right"></button>
-                </div>
-            </div>
-        </section>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/slider-up-down.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">Marathon</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://ivan-shchurupov-page.netlify.app/"
+                    class="card__link"
+                    target="_blanket"
+                    >Slider Up and Down
+                  </a>
+                </article>
+              </li>
+
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/You-Tvideo.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">Pet-Project</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://you-tvideo-react.vercel.app/"
+                    class="card__link"
+                    target="_blanket"
+                    >You-Tvideo
+                  </a>
+                </article>
+              </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/CountryFlags.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">REACT</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://github.com/Ivan19979/countries-spa-youtube-example"
+                    class="card__link"
+                    target="_blanket"
+                  >
+                    Country Flags
+                  </a>
+                </article>
+              </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/GitFind.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">REACT</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://github-user-finder-omega.vercel.app/"
+                    class="card__link"
+                    target="_blanket"
+                  >
+                    Find GitHub Users
+                  </a>
+                </article>
+              </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/dashboardApp.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">REACT, RTK</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://github-user-finder-omega.vercel.app/"
+                    class="card__link"
+                    target="_blanket"
+                  >
+                    Dashboard App
+                  </a>
+                </article>
+              </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/ReactFood.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">REACT, Redux</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://github-user-finder-omega.vercel.app/"
+                    class="card__link"
+                    target="_blanket"
+                  >
+                    Kitchen Recipe
+                  </a>
+                </article>
+              </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/ProjectBuilding.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">Demo Building Company</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://github-user-finder-omega.vercel.app/"
+                    class="card__link"
+                    target="_blanket"
+                  >
+                    Building Company
+                  </a>
+                </article>
+              </li>
+              <li class="portfolio__item swiper-slide">
+                <article class="card">
+                  <img
+                    data-fancybox="gallery"
+                    class="card__pictire"
+                    src="img/KinoMovies.png"
+                    alt=""
+                  />
+
+                  <p class="card__data">
+                    <span class="card__client">React</span>
+                    <time class="card__date" datetime="2023">год: 2023</time>
+                  </p>
+
+                  <a
+                    href="https://github-user-finder-omega.vercel.app/"
+                    class="card__link"
+                    target="_blanket"
+                  >
+                    Kino Movies
+                  </a>
+                </article>
+              </li>
+            </ul>
+            <button class="portfolio__arrow portfolio__arrow-left"></button>
+            <button class="portfolio__arrow portfolio__arrow-right"></button>
+          </div>
+        </div>
+      </section>
     </main>
     <div class="page__overlay page__overlay-modal">
-        <div class="modal">
-            <h2 class="modal__title">Заполните форму и я свяжусь с вами</h2>
+      <div class="modal">
+        <h2 class="modal__title">Заполните форму и я свяжусь с вами</h2>
 
-            <form class="modal__form callback">
-                <fieldset class="callback__group">
-                    <legend class="visualy-hidden">Личные данные</legend>
-                    <label class="callback__label">
-                        <span class="callback__label-text">ФИО</span>
-                        <input class="callback__input" type="text" name="bio" placeholder="Введите ваше ФИО">
-                    </label>
-    
-                    <label class="callback__label">
-                        <span class="callback__label-text">Телефон</span>
-                        <input class="callback__input" type="number" name="phone" placeholder="Введите ваш номер телефона">
-                    </label>
-                </fieldset>
+        <form class="modal__form callback">
+          <fieldset class="callback__group">
+            <legend class="visualy-hidden">Личные данные</legend>
+            <label class="callback__label">
+              <span class="callback__label-text">ФИО</span>
+              <input
+                class="callback__input"
+                type="text"
+                name="bio"
+                placeholder="Введите ваше ФИО"
+              />
+            </label>
 
-                <fieldset class="callback__group connect">
-                    <legend class="connect__title">Где удобнее связаться?</legend>
+            <label class="callback__label">
+              <span class="callback__label-text">Телефон</span>
+              <input
+                class="callback__input"
+                type="number"
+                name="phone"
+                placeholder="Введите ваш номер телефона"
+              />
+            </label>
+          </fieldset>
 
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="telegram" checked="checked">
-                        <span class="connect__text">Телеграмм</span>
-                    </label>
+          <fieldset class="callback__group connect">
+            <legend class="connect__title">Где удобнее связаться?</legend>
 
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="whutsup">
-                        <span class="connect__text">Whatsup</span>
-                    </label>
+            <label class="connect__label">
+              <input
+                class="connect__radio"
+                type="radio"
+                name="connect"
+                value="telegram"
+                checked="checked"
+              />
+              <span class="connect__text">Телеграмм</span>
+            </label>
 
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="call">
-                        <span class="connect__text">Позвонить</span>
-                    </label>
+            <label class="connect__label">
+              <input
+                class="connect__radio"
+                type="radio"
+                name="connect"
+                value="whutsup"
+              />
+              <span class="connect__text">Whatsup</span>
+            </label>
 
-                    <label class="connect__label">
-                        <input class="connect__radio" type="radio" name="connect" value="viber">
-                        <span class="connect__text">Viber</span>
-                    </label>
+            <label class="connect__label">
+              <input
+                class="connect__radio"
+                type="radio"
+                name="connect"
+                value="call"
+              />
+              <span class="connect__text">Позвонить</span>
+            </label>
 
-                </fieldset>
+            <label class="connect__label">
+              <input
+                class="connect__radio"
+                type="radio"
+                name="connect"
+                value="viber"
+              />
+              <span class="connect__text">Viber</span>
+            </label>
+          </fieldset>
 
-                <button type="submit" class="callback__btn">Отправить</button>
-                
-            </form>
-            <button class="modal__close"><img src="img/exit.svg" alt="close"></button>
-        </div>
+          <button type="submit" class="callback__btn">Отправить</button>
+        </form>
+        <button class="modal__close">
+          <img src="img/exit.svg" alt="close" />
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>

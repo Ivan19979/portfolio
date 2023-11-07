@@ -1,218 +1,215 @@
-.modal{
-    background-color: #fff;
-    border-radius: 14px;
-    border: 1px solid #646464;
-    margin: auto;
-    padding: 40px 15px;
-    min-width: 290px;
-    position: relative;
+.modal {
+  background-color: #fff;
+  border-radius: 14px;
+  border: 1px solid #646464;
+  margin: auto;
+  padding: 40px 15px;
+  min-width: 290px;
+  position: relative;
 }
 
-.modal__close{
-    position: absolute;
-    top: 10px;
-    right: 10px;
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-.modal__title{
-    font-size: 14px;
-    line-height: 120%;
-    text-transform: uppercase;
-    text-align: center;
-    max-width: 224px;
-    margin: 0 auto 30px;
+.modal__title {
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 224px;
+  margin: 0 auto 30px;
 }
 
-.callback__label{
-    position: relative;
-    display: block;
-    margin-bottom: 20px;
+.callback__label {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
 }
 
-.callback__label:last-child{
-    margin-bottom: 0;
+.callback__label:last-child {
+  margin-bottom: 0;
 }
 
-.callback__label-text{
-    position: absolute;
-    top: 5px;
-    left: 15px;
-    color: #303030;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 130%;
+.callback__label-text {
+  position: absolute;
+  top: 5px;
+  left: 15px;
+  color: #303030;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 130%;
 }
 
-.callback__input{
-    border-radius: 6px;
-    border: 1px solid #AFAFAF;
-    background: #FFF;
-    font-size: 12px;
-    line-height: 130%;
-    height: 74px;
-    width: 100%;
-    padding: 0 15px;
-    outline: none;
-    transition: all 0.2s ease-in-out;
+.callback__input {
+  border-radius: 6px;
+  border: 1px solid #afafaf;
+  background: #fff;
+  font-size: 12px;
+  line-height: 130%;
+  height: 74px;
+  width: 100%;
+  padding: 0 15px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
 }
 
-.callback__input:focus{
-    border: 1px solid #E87C40;
+.callback__input:focus {
+  border: 1px solid #e87c40;
 }
 
-.callback__group{
-    margin-bottom: 40px;
+.callback__group {
+  margin-bottom: 40px;
 }
 
-
-.connect__title{
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 120%;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    max-width: 224px;
+.connect__title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  max-width: 224px;
 }
 
-.connect__label{
-    width: 0px;
-    cursor: pointer;
-    display: block;
-    margin-bottom: 15px;
-    outline: none;
-    border: none;
-    background: none;
+.connect__label {
+  width: 0px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+  background: none;
 }
 
-.connect__label:focus{
-    outline: none;
-    border: none;
-    background: none;
+.connect__label:focus {
+  outline: none;
+  border: none;
+  background: none;
 }
 
-.connect__label:last-child{
-    margin-bottom: 0;
+.connect__label:last-child {
+  margin-bottom: 0;
 }
 
-.connect__radio{
-    margin-right: 15px;
-    display: none;
+.connect__radio {
+  margin-right: 15px;
+  display: none;
 }
 
-.connect__text{
-    font-size: 16px;
-    line-height: 24px;
-    border: 3px solid transparent;
+.connect__text {
+  font-size: 16px;
+  line-height: 24px;
+  border: 3px solid transparent;
 }
 
-.connect__radio:checked + .connect__text{
-    border: 3px solid #E87C40;
-    border-radius: 100%;
+.connect__radio:checked + .connect__text {
+  border: 3px solid #88adda;
+  border-radius: 100%;
 }
 
-.callback__btn{
-    display: block;
-    margin: 0 auto;
-    font-size: 14px;
-    line-height: 140%;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 16px 60px;
-    border-radius: 10px;
-    background-color: #E87C40;
+.callback__btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 16px 60px;
+  border-radius: 10px;
+  background-color: #88adda;
 }
 
-.callback__btn:hover{
-    display: block;
-    animation: translate 5.5s infinite linear;
-
+.callback__btn:hover {
+  display: block;
+  animation: translate 5.5s infinite linear;
 }
 
 @keyframes translate {
-    0%{
-        transform: scale(1);
-    }
-    25%{
-        transform: scale(1.1);
-    }
-    50%{
-        transform: scale(1);
-    }
-    75%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-
-    }
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-@media (min-width: 768px){
-    .modal{
-        min-width: 730px;
-        padding: 70px 85px;
-    }
+@media (min-width: 768px) {
+  .modal {
+    min-width: 730px;
+    padding: 70px 85px;
+  }
 
-    .modal__close{
-        top: 30px;
-        right: 30px;
-    }
+  .modal__close {
+    top: 30px;
+    right: 30px;
+  }
 
-    .modal__title{
-        max-width: 490px;
-        font-size: 18px;
-        margin-bottom: 52px;
-    }
+  .modal__title {
+    max-width: 490px;
+    font-size: 18px;
+    margin-bottom: 52px;
+  }
 
-    .callback__label-text{
-        top: 8px;
-        font-size: 16px;
-    }
+  .callback__label-text {
+    top: 8px;
+    font-size: 16px;
+  }
 
-    .callback__input{
-        height: 99px;
-        font-size: 16px;
-    }
+  .callback__input {
+    height: 99px;
+    font-size: 16px;
+  }
 
-    .connect__title{
-        font-size: 18px;
-        max-width: 490px;
-        margin-bottom: 52px;
-    }
+  .connect__title {
+    font-size: 18px;
+    max-width: 490px;
+    margin-bottom: 52px;
+  }
 
-    .connect__radio{
-        margin-right: 35px;
-    }
+  .connect__radio {
+    margin-right: 35px;
+  }
 
-    .callback__btn{
-        font-size: 18px;
-        padding: 24px 82px;
-        margin-right: 0;
-    }
+  .callback__btn {
+    font-size: 18px;
+    padding: 24px 82px;
+    margin-right: 0;
+  }
 
-    .connect{
-        margin-bottom: 23px;
-    }
+  .connect {
+    margin-bottom: 23px;
+  }
 }
 
-@media (min-width: 1440px){
-    .modal{
-        min-width: 1010px;
-        padding: 70px 99px 82px 131px;
-    }
+@media (min-width: 1440px) {
+  .modal {
+    min-width: 1010px;
+    padding: 70px 99px 82px 131px;
+  }
 
-    .modal__title{
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
+  .modal__title {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
 
-    .connect__title{
-        font-size: 20px;
-        margin-bottom: 50px;
-    }
+  .connect__title {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
 
-    .connect{
-        margin-bottom: 28px;
-    }
+  .connect {
+    margin-bottom: 28px;
+  }
 }
